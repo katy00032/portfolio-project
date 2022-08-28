@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="description" content="Katerina is a front-end engineer from Ukraine, based in Germany" />
+    <title>Front-end developer - Kateryna Vanina</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
@@ -32,27 +32,28 @@
   <body> 
     <div class="container"></div>
     <nav class="d-flex justify-content-between">
-      <a href="index.html">
+      <a href="index.html" title="Homepage">
       <img src="images/logo.jpg"
        class="logo d-none d-md-block" 
-       alt=""
+       alt="Katerina Logo"
       />
        <img src="images/logo-small.jpg"
        class="logo d-block d-md-none" 
-       alt=""/>
+       alt="Katerina Logo"
+       />
       </a>
       <ul>
         <li class="active">
-         <a href="index.html">Home</a>
+         <a href="index.html" title="Homepage">Home</a>
         </li>
         <li>
-         <a href="about.html"> About</a>
+         <a href="about.html" title="About Katerina"> About</a>
         </li>
         <li>
-          <a href="work.html">Work</a>
+          <a href="work.html"title="Katerina`s work">Work</a>
         </li>
         <li>
-          <a href="contact.html">Contact</a>
+          <a href="contact.html"title="Contact Katerina">Contact</a>
         </li>
       </ul>
     </nav>
@@ -62,13 +63,14 @@
       <h1>Kateryna Vanina</h1>
       <h2 class="mb-5">Front-end developer based in Ukraine</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a href="contact.html" class="btn btn-branding" 
+        title="Contact me">Contact me</a>
       </div>
     </div>
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/avto.jpg" class="img-fluid" alt="" />
+          <img src="images/avto.jpg" class="img-fluid" alt="Auto projects preview" />
         </div>
         <div class="col">
           <div class="project-desciption">
@@ -85,7 +87,7 @@
            and now it is difficult to find a country on the atlas of our planet
            where there is not at least one model of this legendary automaker.
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a href="work.html" class="btn btn-branding-outline"> Learn more </a>
           </div>
         </div>
       </div>
@@ -102,16 +104,18 @@
            We all often talk about the smell of rain. But it's actually odorless. 
            What we used to call the aroma of rain is a product of the activity of cyano- and actin
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a href="work.html" class="btn btn-branding-outline"> Learn more </a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="images/weather.jpg" class="img-fluid" alt="" />
+          <img src="images/weather.jpg" 
+          class="img-fluid" 
+          alt="Weather projects preview" />
         </div>
       </div>
       <div class="row">
         <div class="col d-none d-lg-block">
-          <img src="images/koding.jpg" class="img-fluid" alt="" />
+          <img src="images/koding.jpg" class="img-fluid" alt="Koding projects preview" />
         </div>
         <div class="col">
           <div class="project-desciption">
@@ -129,42 +133,58 @@
            There are about 8,500 programming languages ​​in the world, 
            but the number of languages ​​that are used most often is just over a dozen.
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a href="work.html" class="btn btn-branding-outline"> Learn more </a>
           </div>
         </div>
       </div>
-      <footer>
+      <footer class="container">
         <div class="contact-box justify-content-between
         mb-5 d-none d-md-flex">
           <div>
-          <h4> Work Inquiry</h4>
+          <h3> Work Inquiry</h3>
           <p class="text-muted"> Let`s work together </p>
         </div>
         <div>
-          <a href="" class="btn btn-branding mt-3"> Contact me</a>
+          <a href="contact.html" class="btn btn-branding mt-3"
+          title="Contact Kateryna"> Contact me</a>
         </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
         <a href="mailto:katy00032@gmail.com"  
-        class="email-link">
+        class="email-link"
+        title="Email Kateryna"
+        >
           katy00032@gmail.com
         </a>
         </div>
           <div class="social-links d-flex justify-content-center">
            <a href="https://www.instagram.com/kateryna_vanina/"
-           target="_blank">
+           target="_blank" 
+            title="GitHab Profile"
+            >
             <i class="fab fa-instagram"></i>
           </a>
            <a href="https://github.com/katy00032"
-            target="_blank">
+            target="_blank" 
+            title="Instagram Profile"
+            >
             <i class="fab fa-github"></i>
           </a>
            <a href="https://www.facebook.com/katya.vanina"
-           target="_blank">
+           target="_blank"
+            title="Facebook Profile"
+            >
             <i class="fab fa-facebook"></i>
           </a>
           </div>
-         
+         <p class="text-center mt-4">
+          👉🏻This project was coded Kateryna,
+          <a href="https://github.com/katy00032/portfolio-project.git" 
+          target="_blank"
+          >
+          open-sourced
+        </a> 
+         </p>
       </footer>
     </div>
   </body>
